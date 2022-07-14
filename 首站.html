@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)http://shou.rf.gd/# -->
+<html lang="zh" class="screen-desktop-wide device-desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="viggo">
+    <link rel="shortcut icon" href="http://shou.rf.gd/favicon.ico">
+    <title>首站</title>
+    <meta name="keywords" content="首站,首站导航,首站书签,开源导航,开源书签,简洁导航,云链接,个人导航,个人书签">
+    <meta name="description" content="OneNav是一款使用PHP + SQLite3开发的简约导航/书签管理器，免费开源。">
+    <link rel="stylesheet" href="./首站_files/css">
+    <link rel="stylesheet" href="./首站_files/linecons.css">
+    <link rel="stylesheet" href="./首站_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./首站_files/bootstrap.css">
+    <link rel="stylesheet" href="./首站_files/xenon-core.css">
+    <link rel="stylesheet" href="./首站_files/xenon-components.css">
+    <link rel="stylesheet" href="./首站_files/xenon-skins.css">
+    <link rel="stylesheet" href="./首站_files/nav.css">
+    <link rel="stylesheet" href="./首站_files/font_1627571_5r5ttgth8yq.css"> 
+    <script src="./首站_files/bundle.js.下载" charset="utf-8" async=""></script><script src="https://hm.baidu.com/hm.js?2ad27bbdccaf92894f8e275ec307df70"></script><script src="./首站_files/push.js.下载"></script><script src="./首站_files/font_1627571_5r5ttgth8yq.js.下载"></script>
+    <script src="./首站_files/jquery.min.js.下载"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- / FB Open Graph -->
+<link rel="stylesheet" href="./首站_files/layer.css" id="layuicss-skinlayercss"><input type="hidden" id="_w_marrow" data-inspect-config="3"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><style seniversewidget="" data-styled-version="4.3.2"></style></head>
+
+<body class="page-body" style=""><svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;"><symbol id="icon-yueliang-shixin" viewBox="0 0 1024 1024"><path d="M512 917.333333C288 917.333333 106.666667 736 106.666667 512S288 106.666667 512 106.666667c32 0 55.466667 25.6 55.466667 55.466666 0 21.333333-12.8 38.4-23.466667 44.8-44.8 36.266667-70.4 89.6-70.4 149.333334 0 106.666667 85.333333 192 192 192 59.733333 0 113.066667-25.6 149.333333-72.533334 6.4-8.533333 23.466667-21.333333 44.8-21.333333 32 0 55.466667 25.6 55.466667 55.466667C917.333333 736 736 917.333333 512 917.333333z"></path></symbol><symbol id="icon-yueliang" viewBox="0 0 1024 1024"><path d="M973.10208 630.20032a21.7088 21.7088 0 0 0-20.3008-7.19872c-0.59904 0.1024-56.20224 9.6-132.50048 9.6-128 0-300.8-25.4976-397.50144-147.0976-76.40064-96-93.39904-238.60224-50.60096-424.00256 1.89952-8.09984-0.90112-16.39936-7.19872-21.69856s-14.8992-6.70208-22.59968-3.59936c-3.90144 1.59744-389.09952 166.09792-262.90176 614.49728 68.10112 242.40128 269.50144 328.80128 435.3024 328.80128 178.00192 0 390.00064-101.4016 462.60224-328.09984a22.33856 22.33856 0 0 0-4.3008-21.20192z" fill="#FCD62C"></path><path d="M923.40224 671.20128c-75.20256 182.5024-259.00032 264.20224-408.6016 264.20224-149.69856 0-331.49952-77.99808-393.09824-296.69888C29.30176 310.4 226.2016 151.79776 319.69792 97.1008c-32.9984 177.30048-9.90208 317.10208 68.59776 415.69792 107.6992 135.30112 294.2976 163.70176 432 163.70176 43.00288 0.09728 79.30368-2.80064 103.10656-5.2992z" fill="#FCD62C"></path></symbol><symbol id="icon-yueliang1" viewBox="0 0 1024 1024"><path d="M522.225598 112.402916a46.015189 46.015189 0 0 0-32.643254-56.398104C422.722667 38.070687 128.225455 159.440665 59.084683 417.361701a483.434793 483.434793 0 0 0 341.849595 592.062103c257.999694 69.140772 510.729273-127.033386 528.191447-192.083919a46.015189 46.015189 0 0 0-32.564595-56.398104c-24.541434-6.607309-284.271614-11.64145-395.651971-204.511953-111.301697-192.870503 14.709129-419.485479 21.23778-444.026912z"></path></symbol><symbol id="icon-yueliang2" viewBox="0 0 1029 1024"><path d="M574.049837 1023.363002C833.211234 1000.689318 1027.89473 780.852556 1027.759754 525.275556c-2.170885-24.813325-25.91564-42.182903-50.728965-40.012018-13.785181 1.206047-27.087943 7.926166-34.394213 19.677939-50.075325 62.721947-123.895405 108.074316-209.363526 115.551808-168.179204 14.713774-315.334445-111.318772-330.048219-279.497977-7.718701-88.225156 21.368905-168.557891 77.199512-229.00522 7.54748-8.994737 11.855505-23.262336 10.649458-37.047517-2.170885-24.813325-23.158603-42.424112-48.213138-43.010264-251.717649 44.247555-431.409918 276.663451-408.495024 538.581884 23.638522 270.189541 266.73762 476.728543 539.684198 452.848811z" fill="#FFB948"></path></symbol><symbol id="icon-yueliang3" viewBox="0 0 1024 1024"><path d="M132.608 512c0 209.408 169.984 379.392 379.392 379.392 184.832 0 338.432-132.096 372.224-307.2-17.92 2.56-35.84 3.584-53.76 3.584-217.6 0-394.24-176.64-394.24-394.24 0-17.92 1.024-36.352 3.584-53.76-175.104 33.28-307.2 187.392-307.2 372.224zM512 56.832c10.24 0 19.968 0.512 30.208 1.024-19.968 42.496-30.208 88.576-30.208 135.68 0 176.128 142.848 318.464 318.464 318.464 46.592 0 93.184-10.24 135.68-30.208 0.512 10.24 1.024 19.968 1.024 30.208 0 251.392-203.776 455.168-455.168 455.168S56.832 763.392 56.832 512 260.608 56.832 512 56.832z m379.392 151.552c-41.984 0-75.776-33.792-75.776-75.776s33.792-75.776 75.776-75.776c41.984 0 75.776 33.792 75.776 75.776 0 41.984-33.792 75.776-75.776 75.776z"></path></symbol><symbol id="icon-yejianmoshi" viewBox="0 0 1024 1024"><path d="M999.96115 732.893952C999.96115 893.668718 869.461606 1024 708.482521 1024S417.051967 893.668718 417.051967 732.893952s130.499545-291.094029 291.46661-291.094029S999.96115 572.095148 999.96115 732.893952" fill="#FFB047"></path><path d="M784.392921 72.836437l3.605624 10.997153a108.397071 108.397071 0 0 0 68.999621 68.903471l11.009171 3.605624c18.532906 6.105523 18.532906 32.294371 0 38.459987l-11.02119 3.605624a108.433127 108.433127 0 0 0-68.987602 68.891453l-3.605624 11.009171c-6.117542 18.508869-32.342446 18.508869-38.459987 0l-3.605624-10.997153a108.336977 108.336977 0 0 0-68.975584-68.891452l-11.02119-3.605624c-18.544925-6.105523-18.544925-32.294371 0-38.459987l11.009172-3.605624a108.361014 108.361014 0 0 0 68.987602-68.891452l3.605624-11.009172c6.117542-18.508869 32.342446-18.508869 38.459987 0M372.582606 84.963352A393.36154 393.36154 0 0 0 223.550155 176.678403C64.902707 332.008677 65.623832 590.976599 225.581323 750.681696c159.356554 159.116179 415.379882 161.051197 571.863956 4.807498a392.556284 392.556284 0 0 0 94.587532-151.772725c-144.128803 41.284393-302.163294 1.706662-411.642053-107.639889S331.286195 228.923892 372.582606 84.963352m81.09048 11.670203c-38.459987 118.697136-7.271341 251.191792 83.950941 342.245812s223.873183 122.242666 342.690506 83.842773c56.043413-18.136288 110.668614 33.92892 93.601995 90.66942a473.538594 473.538594 0 0 1-119.262017 199.282828c-188.309713 188.069338-495.592993 185.737701-686.402606-4.807498C-23.362964 616.564509-24.216295 305.964055 166.785618 118.988422A474.403944 474.403944 0 0 1 362.77531 3.187804c56.83665-17.078638 109.094158 37.402338 90.933832 93.445751"></path></symbol><symbol id="icon-yejianqing" viewBox="0 0 1024 1024"><path d="M465.472 111.3216a384.4608 384.4608 0 0 0-16.0256 175.2832 380.6336 380.6336 0 0 0 63.6544 163.456 367.9104 367.9104 0 0 0 129.28 115.5456 357.0304 357.0304 0 0 0 166.3872 42.1632 353.6384 353.6384 0 0 0 91.712-11.8528 373.76 373.76 0 0 1-103.6672 157.2608 359.552 359.552 0 0 1-165.5936 84.4544 353.9584 353.9584 0 0 1-184.6016-10.2144 362.24 362.24 0 0 1-155.8016-102.2464 376.5504 376.5504 0 0 1-86.6176-167.808 382.976 382.976 0 0 1 4.992-189.8496 375.1808 375.1808 0 0 1 95.3344-162.7392 360.832 360.832 0 0 1 160.9472-93.44z" fill="#FACD00"></path><path d="M557.7088 868.9024c-93.632-0.0384-184.0384-35.0976-254.336-98.6496-70.272-63.5392-115.648-151.2064-127.5904-246.6048-11.9424-95.4112 10.3424-192 62.6944-271.7568 52.352-79.744 131.1744-137.1904 221.7472-161.5616 3.6864-1.024 7.5776-0.9728 11.2384 0.128 3.6736 1.088 6.976 3.2 9.5616 6.0672a22.0928 22.0928 0 0 1 4.352 21.7984 362.368 362.368 0 0 0-15.104 165.1584 358.7584 358.7584 0 0 0 59.9552 154.0224 346.7904 346.7904 0 0 0 121.7792 108.928 336.512 336.512 0 0 0 156.7616 39.7952c29.184 0.0384 58.24-3.7632 86.4768-11.3024 3.6864-1.024 7.5776-0.9728 11.2384 0.128 3.6608 1.088 6.9632 3.2 9.5616 6.0672a22.1056 22.1056 0 0 1 4.352 21.7984c-26.0352 77.568-74.9568 144.8576-139.968 192.5376-64.9984 47.6672-142.848 73.344-222.72 73.4464z m-123.1616-724.736a343.3216 343.3216 0 0 0-136.4224 97.216 356.1728 356.1728 0 0 0-76.0576 151.6032 362.0224 362.0224 0 0 0 2.0864 170.5472 355.584 355.584 0 0 0 79.744 149.5936 342.6816 342.6816 0 0 0 138.752 93.6576 334.6816 334.6816 0 0 0 165.2992 15.8208 338.5088 338.5088 0 0 0 153.2032-65.7152 350.848 350.848 0 0 0 105.2672-131.8912c-19.0848 2.9056-38.3616 4.352-57.6512 4.3008a377.3184 377.3184 0 0 1-166.9632-39.8848 387.84 387.84 0 0 1-133.6576-110.272 401.024 401.024 0 0 1-73.9584-158.8736 406.8608 406.8608 0 0 1 0.3584-176.1024z" fill="#FACD00"></path><path d="M426.176 154.3936a367.872 367.872 0 0 0-15.488 168.0128 364.2112 364.2112 0 0 0 61.0432 156.672 352.0256 352.0256 0 0 0 124.032 110.6432 341.5936 341.5936 0 0 0 159.552 40.1152 338.7264 338.7264 0 0 0 88.064-11.84 358.1696 358.1696 0 0 1-99.0976 150.9248 344.576 344.576 0 0 1-158.592 81.2416 339.136 339.136 0 0 1-176.96-9.5232 347.0336 347.0336 0 0 1-149.4528-97.8048 360.7552 360.7552 0 0 1-83.2-160.7296 366.9632 366.9632 0 0 1 4.608-181.9904 359.488 359.488 0 0 1 91.264-156.0576 345.7792 345.7792 0 0 1 154.2272-89.664z" fill="#FAF400"></path><path d="M514.2144 881.28c-89.92-0.0896-176.7424-33.8176-244.2112-94.8864-67.4816-61.0688-111.0016-145.28-122.432-236.928-11.4304-91.6224 10.0224-184.3968 60.3264-260.9792 50.304-76.5696 126.0288-131.712 213.0304-155.0848 3.6864-1.024 7.5648-0.9728 11.2384 0.128 3.6608 1.088 6.9632 3.2 9.5616 6.0672a22.0928 22.0928 0 0 1 4.352 21.7984 345.28 345.28 0 0 0-11.2128 178.9952 339.84 339.84 0 0 0 79.872 159.488A326.4 326.4 0 0 0 663.04 594.56a319.1808 319.1808 0 0 0 174.5664 2.9696c3.6864-1.0112 7.5776-0.96 11.2384 0.128 3.6736 1.1008 6.976 3.2 9.5616 6.08a22.08 22.08 0 0 1 4.352 21.7984c-24.96 74.5728-71.9616 139.3024-134.4384 185.1392-62.4768 45.8496-137.3184 70.528-214.0928 70.6176z m-118.976-694.0416a327.7568 327.7568 0 0 0-129.088 93.3376 339.968 339.968 0 0 0-71.616 144.512 345.4592 345.4592 0 0 0 2.496 162.1632 339.2768 339.2768 0 0 0 76.032 142.1184 327.0016 327.0016 0 0 0 131.904 89.088 319.36 319.36 0 0 0 157.1456 15.36 322.9056 322.9056 0 0 0 145.8944-61.9136 334.6304 334.6304 0 0 0 100.7616-124.8384 360.768 360.768 0 0 1-176.384-18.0608 369.408 369.408 0 0 1-147.9552-100.2624 383.2064 383.2064 0 0 1-85.5936-159.4496 390.2208 390.2208 0 0 1-3.584-182.0544z" fill="#FAF400"></path><path d="M483.3024 708.992s26.2016-21.5424 34.5856-45.7728c8.384-24.2304 5.76-36.608 5.76-36.608s79.1552 74.8416-40.3456 82.3808z" fill="#FF8472"></path><path d="M483.2896 717.056a7.7312 7.7312 0 0 1-4.5952-1.5104 8.2944 8.2944 0 0 1-0.128-13.0176s24.64-20.4672 31.9744-42.5344c7.3472-22.08 5.76-32.3072 5.76-32.8448a8.2688 8.2688 0 0 1 0.7168-5.0304 7.9744 7.9744 0 0 1 3.4816-3.584 7.68 7.68 0 0 1 8.9216 1.0752c3.6608 3.7632 36.16 35.5328 26.2016 64.0768-6.8096 19.3792-30.4 30.144-71.808 32.8448l-0.512 0.5376z m47.168-70.528a140.8 140.8 0 0 1-5.2352 19.3792 102.2592 102.2592 0 0 1-19.9168 32.8448c19.9168-3.7632 31.9744-10.2272 35.1104-19.3792 3.1488-9.152-2.6112-23.1552-9.9584-32.8448zM303.5264 538.8416a10.3296 10.3296 0 0 1-7.232-2.9568 10.8928 10.8928 0 0 1-3.2384-7.2704c-1.0496-22.6176 11.52-67.84 66.0352-76.992 2.4832 0.0256 4.864 0.96 6.7456 2.6368a11.008 11.008 0 0 1 2.0608 13.76 10.5344 10.5344 0 0 1-5.6704 4.608c-49.792 8.064-48.2176 52.7488-48.2176 54.3744a11.0464 11.0464 0 0 1-2.688 7.7696 10.496 10.496 0 0 1-7.2704 3.5328l-0.512 0.5376z" fill="#000000"></path><path d="M473.856 921.6768a377.5232 377.5232 0 0 1-195.904-55.5904c-59.2768-36.2112-108.0192-88.1024-141.1072-150.272a404.5184 404.5184 0 0 1-47.0272-203.136 403.456 403.456 0 0 1 60.1472-199.4368c1.3312-2.688 3.1872-5.0432 5.4656-6.9376a20.4416 20.4416 0 0 1 24.5248-1.408c2.4576 1.6384 4.5696 3.7632 6.1824 6.272a21.888 21.888 0 0 1 2.8032 17.2288c-0.7296 2.9184-2.048 5.632-3.8656 8-43.9552 70.784-61.824 155.3664-50.432 238.5024 11.4048 83.136 51.3536 159.36 112.64 214.912 61.2736 55.552 139.8656 86.7712 221.568 88.0512 81.728 1.28 161.1904-27.4944 224.0896-81.1008a237.2864 237.2864 0 0 0 23.5904-22.6176c1.8816-2.176 4.1856-3.9424 6.7584-5.1712a20.5056 20.5056 0 0 1 23.5776 4.1344c2.0224 2.048 3.6224 4.4928 4.7104 7.1936a22.0544 22.0544 0 0 1-0.256 16.96c-1.152 2.6624-2.8288 5.056-4.9152 7.04a406.0032 406.0032 0 0 1-26.7392 25.3056c-68.9024 59.328-155.904 91.904-245.7984 92.0704z m294.0288-154.5344a20.5696 20.5696 0 0 1-10.752-3.2768 21.3504 21.3504 0 0 1-7.552-8.4992 22.0416 22.0416 0 0 1 1.536-22.144 354.3424 354.3424 0 0 0 31.9744-55.4624 375.552 375.552 0 0 1-184.896-18.0224 384.5504 384.5504 0 0 1-155.2-104.7936 399.0144 399.0144 0 0 1-89.4336-167.232 406.2336 406.2336 0 0 1-2.8672-190.7712 337.1008 337.1008 0 0 0-68.6592 37.1456 20.4416 20.4416 0 0 1-23.9744 1.0752 21.2224 21.2224 0 0 1-6.08-6.0544 21.8496 21.8496 0 0 1-3.1616-16.704c0.6016-2.8672 1.7664-5.568 3.4176-7.936 1.664-2.3936 3.776-4.4032 6.2208-5.9136a376.3584 376.3584 0 0 1 117.9136-55.4624c3.6992-1.0112 7.5776-0.96 11.2512 0.128 3.6608 1.1008 6.9632 3.2 9.5488 6.08a22.0928 22.0928 0 0 1 4.352 21.7984 361.2928 361.2928 0 0 0-11.8656 187.4304 355.6096 355.6096 0 0 0 83.6096 167.04 341.5424 341.5424 0 0 0 155.3152 99.1232 333.9904 333.9904 0 0 0 182.8096 2.9952c3.6864-1.0112 7.5776-0.96 11.2384 0.128 3.6736 1.088 6.976 3.2 9.5616 6.08a22.0928 22.0928 0 0 1 4.352 21.7984 398.5152 398.5152 0 0 1-52.4032 102.8352c-1.9072 2.5984-4.352 4.736-7.168 6.2208-2.816 1.4976-5.9136 2.304-9.088 2.3936z m-570.752-461.9776a20.5568 20.5568 0 0 1-11.2384-3.4944 21.376 21.376 0 0 1-7.6416-9.1264 22.0544 22.0544 0 0 1 3.1488-22.912 394.9184 394.9184 0 0 1 28.3008-30.6944c1.9712-2.0864 4.3264-3.7376 6.9376-4.864a20.4544 20.4544 0 0 1 16.448 0.1024c2.5984 1.152 4.928 2.8288 6.8736 4.9408a22.0928 22.0928 0 0 1 3.6608 24.192 21.4784 21.4784 0 0 1-5.0944 6.848 352.1024 352.1024 0 0 0-25.152 27.4688 21.0432 21.0432 0 0 1-7.296 5.632 20.48 20.48 0 0 1-8.96 1.9072z" fill="#000000"></path><path d="M320.3072 667.52c0 8.8704 3.4176 17.3568 9.5104 23.616 6.0928 6.272 14.3616 9.7792 22.976 9.7792 8.6272 0 16.896-3.52 22.9888-9.7792 6.0928-6.272 9.5104-14.7456 9.5104-23.6032 0-8.8576-3.4176-17.344-9.5104-23.6032a32.064 32.064 0 0 0-22.9888-9.7792c-8.6144 0-16.8832 3.52-22.976 9.7792a33.856 33.856 0 0 0-9.5104 23.6032z" fill="#FFA11F"></path></symbol></svg>
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed" style="">
+            <div class="sidebar-menu-inner ps-container">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="http://shou.rf.gd/" class="logo-expanded">
+                            <img src="./首站_files/logo.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="http://shou.rf.gd/#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                
+                <ul id="main-menu" class="main-menu">
+                    		<a href="http://shou.rf.gd/#category-20">
+			<li class="smooth">
+				<div class="title"><i class="fa-asl-interpreting"></i> 社交媒体</div>
+			</li>
+		</a>
+				<a href="http://shou.rf.gd/#category-23">
+			<li class="smooth">
+				<div class="title"><i class="fa fa-legal"></i> 工具·软件</div>
+			</li>
+		</a>
+				<a href="http://shou.rf.gd/#category-24">
+			<li class="smooth">
+				<div class="title"><i class="fa-cubes"></i> 网站资源</div>
+			</li>
+		</a>
+				<a href="http://shou.rf.gd/#category-22">
+			<li class="smooth">
+				<div class="title"><i class="fa fa-legal"></i> 网络直播</div>
+			</li>
+		</a>
+				<a href="http://shou.rf.gd/#category-21">
+			<li class="smooth">
+				<div class="title"><i class="fa-film"></i> 视频网站</div>
+			</li>
+		</a>
+				<a href="http://shou.rf.gd/#category-19">
+			<li class="smooth">
+				<div class="title"><i class="fa fa-book"></i> 默认分类</div>
+			</li>
+		</a>
+		                </ul>
+            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 2px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div>
+        </div>
+        
+<!--顶部美化开始-->  
+   <div class="board">
+          <div class="left">
+       <ul class="user-info-menu left-links list-inline list-unstyled">	 
+     <li><span class="board-title zmki_wap_zsy1"><a href="http://shou.rf.gd/"><i class="fa fa-home  "></i> 首页</a></span></li>
+	 <li><span class="board-title "><a href="http://shou.rf.gd/about.html" target="_blank"><i class="fa fa-heart xiaotubiao" style="color: #fb5962;"></i>&nbsp;关于本站</a></span></li>
+	 <li><div class="zmki_wap" id="tp-weather-widget"><div class="sc-csuQGl sw-container sc-eqIVtm fsIvwB"><div class="sw-bar-slim sc-fMiknA EKHJj"><span class="sw-typography sw-bar-slim-location sc-bwzfXH dsrBSL" color="inherit">池州</span><span class="icon-background-alarmCircle background-30 text-30"><i class="icon-hot iconColor-30 color-30 sc-bxivhb jRCMdc"></i></span><span class="sw-typography sw-bar-slim-temperature sc-bwzfXH dsrBSL" color="inherit">31°</span></div><div class="sc-gisBJw gBTmdH" hidden=""><div class="sw-card-slim-container sc-fAjcbJ ihAeOA" style="opacity: 0; display: flex; width: 0px; height: 0px;"><div class="sw-card-slim-background sc-caSCKo jkISYm"><div class="sw-card-slim-close sc-gipzik gjqjck">×</div><div class="sw-ui-main-container sc-fjdhpX fAFgBy"><div class="sc-htpNat sw-ui-main sc-gzVnrw blUPwB"><div class="sw-ui-main-arcContainer sc-dnqmqq cHlxbs"><div class="sw-ui-main-arc sc-iwsKbI bRmqwc"><img top="13.956509165276088" left="15.346475382045575" class="sw-ui-main-weatherIcon sc-gZMcBi dxYNQE sc-bdVaJa hlBhLX" src="./首站_files/9.svg"></div></div><div class="sw-ui-main-title sc-cSHVUG iWEWlT"><p class="sw-typography  sc-bwzfXH jQHZYL" color="inherit"><a target="_blank" color="textPrimary" href="http://m.seniverse.com/weather/WT7W3R63DQMH?source=widget" class="sc-jzJRlG ggJaPA">池州</a> </p><span class="sw-typography sw-ui-main-time sc-bwzfXH eccBLL" color="textSecondary">08:40发布</span></div><div class="sw-ui-main-grow sc-htoDjs hzdUrF"></div><p class="sw-typography sw-ui-main-temperature sc-bwzfXH eofBUk" color="inherit">31°</p><div class="sw-ui-main-timeContainer sc-VigVT eMNzRy"><span class="sw-typography sw-ui-main-rise sc-bwzfXH bpTFnS" color="textSecondary">05:17</span><span class="sw-typography sw-ui-main-temperatureRange sc-jTzLTM bFsUuh sc-bwzfXH dBbtWF" color="inherit">阴 26°C~38°C<img class="sc-gqjmRU fhCbRT sc-bdVaJa hlBhLX" src="./首站_files/arrow-up.svg"></span><span class="sw-typography sw-ui-main-set sc-bwzfXH fwGqcW" color="textSecondary">19:16</span> </div></div><div class="sw-ui-main-alarm sc-bZQynM ijqNjY"><p class="sw-typography sw-ui-main-alarm-title sc-bwzfXH jCzPjW" color="inherit"><span class="icon-background-alarmCircle background-30 text-30"><i class="icon-hot iconColor-30 color-30 sc-bxivhb jRCMdc"></i></span>高温橙色预警</p><div class="sw-ui-main-alarm-desc sc-EHOje kAFYOC sc-ifAKCX igKzDg"><div class="sc-cJSrbW dGahrl"><p class="sw-typography sc-ksYbfQ jjvwPQ sc-bwzfXH jCzPjW" color="inherit" title="池州市气象台2022年07月13日09时40分继续发布高温橙色预警信号。贵池区秋浦街道等大部分街道及乡镇24小时内最高气温将继续维持在37℃以上。请注意防范！">池州市气象台2022年07月13日09时40分继续发布高温橙色预警信号。贵池区秋浦街道等大部分街道及乡镇24小时内最高气温将继续维持在37℃以上。请注意防范！</p></div></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">天气现象</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sc-kGXeez sw-ui-tile-text sc-kpOJdX cPIXGr sc-bwzfXH bcxaVF" color="inherit"><img class="sw-ui-tile-text-icon sc-chPdSV kQwelo sc-bdVaJa hlBhLX" src="./首站_files/9.svg"><span class="sw-typography sw-ui-tile-text-suffix sc-bwzfXH jCzPjW" color="inherit">阴</span></p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">温度</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">31<span class="sw-typography sw-ui-tile-text-suffix sc-bwzfXH jCzPjW" color="inherit">°C</span></p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">今日天气</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sc-kGXeez sw-ui-tile-text sc-kpOJdX cPIXGr sc-bwzfXH bcxaVF" color="inherit"><img class="sw-ui-tile-text-icon sc-chPdSV kQwelo sc-bdVaJa hlBhLX" src="./首站_files/4.svg"></p><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit"><span class="sw-typography sw-ui-tile-text-suffix sc-bwzfXH jCzPjW" color="inherit"> / </span></p><p class="sw-typography sc-kGXeez sw-ui-tile-text sc-kpOJdX cPIXGr sc-bwzfXH bcxaVF" color="inherit"><img class="sw-ui-tile-text-icon sc-chPdSV kQwelo sc-bdVaJa hlBhLX" src="./首站_files/4.svg"></p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">今日气温</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">26/38<span class="sw-typography sw-ui-tile-text-suffix sc-bwzfXH jCzPjW" color="inherit">°C</span></p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">明日气温</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">27/36<span class="sw-typography sw-ui-tile-text-suffix sc-bwzfXH jCzPjW" color="inherit">°C</span></p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">洗车指數</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">较适宜</p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">穿衣指數</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">炎热</p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">感冒指數</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">少发</p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">运动指數</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">较适宜</p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">旅游指數</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">不适宜</p></div></div></div><div class="sc-htpNat sw-ui-tile sc-kAzzGY OeVeF"><div class="sw-ui-tile-container sc-kgoBCf eBcdRn"><p class="sw-typography sw-ui-tile-header sc-bwzfXH lgjLwG" color="inherit">紫外线强度</p><div class="sw-ui-tile-content sc-dxgOiQ jQorrF"><p class="sw-typography sw-ui-tile-text sc-kGXeez BUFfT sc-bwzfXH bcxaVF" color="inherit">中等</p></div></div></div><div class="sw-ui-brand sc-hSdWYo emBiRU"><a target="_blank" color="textPrimary" href="http://seniverse.com/?source=widget" class="sc-eHgmQL hQLwwD"><img class="sc-cvbbAY gYiOzp sc-bdVaJa hlBhLX" src="./首站_files/logo.svg"><p class="sw-typography  sc-bwzfXH jCzPjW" color="inherit">数据服务来自心知天气</p></a></div></div></div></div></div></div></li>
+	 <li><div class="zmki_yldh zmki_wap_zsy2" title="切换模式"><a href="javascript:switchNightMode()" target="_self"><svg class="icon zmki_dh" aria-hidden="true"><use xlink:href="#icon-yueliang2"></use></svg></a></div></li> 
+		  </ul>
+       </div>
+   </div>
+	<li><a type="button" id="fullscreen"> </a></li><a type="button" id="fullscreen">
+<!--心知天气开始-->
+<!--由于默认调用的免费版每分钟20次API调用限制，如有需求可前往知心天气官网购买服务配置-->
+<div id="tp-weather-widget"></div>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "slim",
+    location: "WX4FBXXFKE4F",
+    geolocation: true,
+    language: "zh-Hans",
+    unit: "c",
+    theme: "auto",
+    token: "6cc2a314-5422-4e9c-b3ad-7b9217f4e494",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>
+<!--心知天气结束--> 
+   	</a><div class="main-content" style=""><a type="button" id="fullscreen">  
+	<!--顶部美化结束-->	  
+	<section class="sousuo">
+  <div class="search">
+    <div class="search-box">
+      <span class="search-icon" style="background: url(&quot;templates/webstack/heli/images/search_icon.png&quot;) -40px 0px; opacity: 1;"></span>
+      <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
+      <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
+    </div>
+    <!-- 搜索热词 -->
+    <div class="box search-hot-text" id="box" style="display: none;">
+      <ul><li style="border-top: none;"><span style="color: rgb(255, 255, 255); background: rgb(245, 69, 69);">1</span> fetch</li><li><span style="color: rgb(255, 255, 255); background: rgb(255, 133, 71);">2</span> fetch是什么意思</li><li><span style="color: rgb(255, 255, 255); background: rgb(255, 172, 56);">3</span> fetching</li><li><span>4</span> fetch的用法</li><li><span>5</span> fetching data是什么意思</li><li><span>6</span> fetch bring take carry的区别</li><li><span>7</span> fetching data</li><li><span>8</span> fetch怎么读</li><li><span>9</span> fetching是什么意思</li><li><span>10</span> fetch请求</li></ul>
+    </div>
+    <!-- 搜索引擎 -->
+    <div class="search-engine" style="display: none;">
+      <div class="search-engine-head">
+        <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+        <div class="search-engine-tool">搜索热词： <span id="hot-btn"></span></div>
+      </div>
+      <ul class="search-engine-list search-engine-list_zmki_ul"> 
+      <li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px 0px"></span>百度</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;)  -105px 0px"></span>谷歌</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;)  -80px -25px"></span>必应</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -25px"></span>好搜</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -50px"></span>搜狗</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -50px"></span>淘宝</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -75px"></span>京东</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -75px"></span>天猫</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -100px"></span>1688</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -100px"></span>知乎</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -125px"></span>微博</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -125px"></span>B站</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -150px"></span>豆瓣</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -105px -150px"></span>优酷</li><li><span style="background:url(&#39;/templates/heli/heli/images/search_icon.png&#39;) -80px -175px"></span>GitHub</li></ul>
+    </div>
+   </div>
+<script src="./首站_files/index.min.js.下载"></script>
+<script src="./首站_files/zui.js.下载"></script>
+</section> 
+	
+            <nav class="navbar user-info-navbar" role="navigation">
+            </nav>
+            <!-- 常用推荐 -->
+            <!-- 遍历分类目录 -->
+           			<h4 id="category-20" class="text-gray">
+				<i class="fa-asl-interpreting"></i> 社交媒体 </h4>
+			<!-- 遍历链接 -->
+			</a><div class="row"><a type="button" id="fullscreen">
+			                </a><div class="col-sm-3"><a type="button" id="fullscreen">
+                    </a><div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=14&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/"><a type="button" id="fullscreen">
+                        </a><div class="xe-comment-entry"><a type="button" id="fullscreen">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            </a><div class="xe-comment"><a type="button" id="fullscreen">
+                                </a><a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cueW91dHViZS5jb20=" alt="HUAN" width="16" height="16">
+                                    <strong>Youtube</strong>
+                                </a>
+                                <p class="overflowClip_2">Youtube</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=9&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>Instagram</strong>
+                                </a>
+                                <p class="overflowClip_2">Instagram</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=15&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://twitter.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly90d2l0dGVyLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>Twitter</strong>
+                                </a>
+                                <p class="overflowClip_2">Twitter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+            			<h4 id="category-23" class="text-gray">
+				<i class="fa fa-legal"></i> 工具·软件 </h4>
+			<!-- 遍历链接 -->
+			<div class="row">
+			                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=11&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://duckduckgo.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9kdWNrZHVja2dvLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>鸭子搜索</strong>
+                                </a>
+                                <p class="overflowClip_2">不堪网络追踪之扰？我们可以助你一臂之力。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=16&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.namecheap.com/vpn/?clickID=Xqb2yvVzfxyIROOV3m3wlTMuUkD01O2ry09QxQ0&amp;irgwc=1&amp;utm_source=IR&amp;utm_medium=Affiliate&amp;utm_campaign=3324463&amp;affnetwork=ir&amp;ref=ir">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cubmFtZWNoZWFwLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>30-freevpn</strong>
+                                </a>
+                                <p class="overflowClip_2">30-day free trial</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=17&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://twittervideodownloader.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly90d2l0dGVydmlkZW9kb3dubG9hZGVyLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>Twitter Video Downloader</strong>
+                                </a>
+                                <p class="overflowClip_2">Twitter Video Downloader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=23&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ytb.rip/en/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly95dGIucmlw" alt="HUAN" width="16" height="16">
+                                    <strong>YouTube Downloader</strong>
+                                </a>
+                                <p class="overflowClip_2">YouTube Downloader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=25&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://privadovpn.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9wcml2YWRvdnBuLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>privadovpn</strong>
+                                </a>
+                                <p class="overflowClip_2">10GB Data Every 30-Days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+            			<h4 id="category-24" class="text-gray">
+				<i class="fa-cubes"></i> 网站资源 </h4>
+			<!-- 遍历链接 -->
+			<div class="row">
+			                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=24&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://db.a169.org/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cDovL2RiLmExNjkub3Jn" alt="HUAN" width="16" height="16">
+                                    <strong>电报Telegram格子网</strong>
+                                </a>
+                                <p class="overflowClip_2">电报Telegram百万格子 - 玩电报就从这里开始</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=27&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://telsearch.long2ice.io/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly90ZWxzZWFyY2gubG9uZzJpY2UuaW8=" alt="HUAN" width="16" height="16">
+                                    <strong>电报搜索</strong>
+                                </a>
+                                <p class="overflowClip_2">作者很懒，没有填写描述。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+            			<h4 id="category-22" class="text-gray">
+				<i class="fa fa-legal"></i> 网络直播 </h4>
+			<!-- 遍历链接 -->
+			<div class="row">
+			                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=10&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.myfreecams.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cubXlmcmVlY2Ftcy5jb20=" alt="HUAN" width="16" height="16">
+                                    <strong>MyFreeCams </strong>
+                                </a>
+                                <p class="overflowClip_2">MyFreeCams is the original free webcam community for adults, featuring live video chat with thousands of models, cam girls, amateurs and female content creators!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+            			<h4 id="category-21" class="text-gray">
+				<i class="fa-film"></i> 视频网站 </h4>
+			<!-- 遍历链接 -->
+			<div class="row">
+			                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=18&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://m.nbys.tv/index.html">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9tLm5ieXMudHY=" alt="HUAN" width="16" height="16">
+                                    <strong>泥巴影院</strong>
+                                </a>
+                                <p class="overflowClip_2">泥巴影院 - 在线观看电视节目，在线观看电影</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=28&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://91porn.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly85MXBvcm4uY29t" alt="HUAN" width="16" height="16">
+                                    <strong>91porn</strong>
+                                </a>
+                                <p class="overflowClip_2">Chinese homemade video</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=20&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xn---jifanggcom-uu0ty71c3m3evyue1b8a.jifangg-com.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly94bi0tLWppZmFuZ2djb20tdXUwdHk3MWMzbTNldnl1ZTFiOGEuamlmYW5nZy1jb20uY29t" alt="HUAN" width="16" height="16">
+                                    <strong>集芳阁</strong>
+                                </a>
+                                <p class="overflowClip_2">集芳阁,云搜,av云搜,免费云搜,福利搜索,福利云搜,福利</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=12&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.xvideos.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cueHZpZGVvcy5jb20=" alt="HUAN" width="16" height="16">
+                                    <strong>XVIDEOS</strong>
+                                </a>
+                                <p class="overflowClip_2">免費成人視頻 - XVIDEOS.COM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=13&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pornhub.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20=" alt="HUAN" width="16" height="16">
+                                    <strong>Pornhub</strong>
+                                </a>
+                                <p class="overflowClip_2">Pornhub is the world’s leading free porn site. Choose from millions of hardcore videos that stream quickly and in high quality, including amazing VR Porn. The largest adult site on the Internet just keeps getting better. We have more pornstars and real amateurs than anyone else. It’s fast, it’s free, it’s Pornhub!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=19&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xingfupa.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly94aW5nZnVwYS5jb20=" alt="HUAN" width="16" height="16">
+                                    <strong>性福啪</strong>
+                                </a>
+                                <p class="overflowClip_2">性福啪,国产自拍,日本无码,麻豆传媒,91制片厂,果冻传媒、精东影业、蜜桃影像、天美传媒、皇家华人、杏吧、乐播传媒,MDS,MDX,MDXS,杏吧,兔子先生,蜜桃影像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=21&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://avqq.com/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9hdnFxLmNvbQ==" alt="HUAN" width="16" height="16">
+                                    <strong>avqq</strong>
+                                </a>
+                                <p class="overflowClip_2">avqq</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=22&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://m.nbys.tv/filter.html?sc=9506d932e91239719c84fc7f313fe41c&amp;channelId=7&amp;showTypeId=143">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9tLm5ieXMudHY=" alt="HUAN" width="16" height="16">
+                                    <strong>泥巴成人</strong>
+                                </a>
+                                <p class="overflowClip_2">泥巴成人</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=26&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://lululu.cc/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cDovL2x1bHVsdS5jYw==" alt="HUAN" width="16" height="16">
+                                    <strong>免费视频</strong>
+                                </a>
+                                <p class="overflowClip_2">免费立足北美，仅适合18岁或以上人士观看。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+            			<h4 id="category-19" class="text-gray">
+				<i class="fa fa-book"></i> 默认分类 </h4>
+			<!-- 遍历链接 -->
+			<div class="row">
+			                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=1&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/helloxz/onenav">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9naXRodWIuY29t" alt="HUAN" width="16" height="16">
+                                    <strong>OneNav源码</strong>
+                                </a>
+                                <p class="overflowClip_2">OneNav源码下载。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=2&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.yuque.com/helloz/onenav/install">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cueXVxdWUuY29t" alt="HUAN" width="16" height="16">
+                                    <strong>安装文档</strong>
+                                </a>
+                                <p class="overflowClip_2">OneNav安装文档。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=3&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.yuque.com/helloz/onenav/api">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cueXVxdWUuY29t" alt="HUAN" width="16" height="16">
+                                    <strong>API</strong>
+                                </a>
+                                <p class="overflowClip_2">OneNav API说明。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=4&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.xiaoz.me/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly93d3cueGlhb3oubWU=" alt="HUAN" width="16" height="16">
+                                    <strong>小z博客</strong>
+                                </a>
+                                <p class="overflowClip_2">小z博客是一个以资源分享和技术教程为主的个人博客,站内提供各种优质资源、原创教程，以及小z的个人心得等。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=5&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://imgurl.org/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9pbWd1cmwub3Jn" alt="HUAN" width="16" height="16">
+                                    <strong>ImgURL免费图床</strong>
+                                </a>
+                                <p class="overflowClip_2">ImgURL诞生于2017年12月，是一款开源图片管理系统（简称图床），无需注册即可支持多图上传、粘贴上传、URL上传，图片压缩、图片鉴黄等多种功能，同时也支持自建。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=6&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://soft.xiaoz.org/">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cDovL3NvZnQueGlhb3oub3Jn" alt="HUAN" width="16" height="16">
+                                    <strong>小z博客软件库</strong>
+                                </a>
+                                <p class="overflowClip_2">Zdir是一款使用PHP开发的目录列表程序，简单实用，免费开源。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=7&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/helloxz/ccaa">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9naXRodWIuY29t" alt="HUAN" width="16" height="16">
+                                    <strong>CCAA离线下载</strong>
+                                </a>
+                                <p class="overflowClip_2">Linux一键安装Aria2 + AriaNg + FileBrowse实现离线下载、文件管理。. Contribute to helloxz/ccaa development by creating an account on GitHub.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-3">
+                    <div class=" xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;/index.php?c=click&amp;id=8&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/helloxz">
+                        <div class="xe-comment-entry">
+                            <!-- <a class="xe-user-img">
+                                <img data-src="templates/default/heli/images/logos/uisdc.png" class="lozad img-circle" width="40">
+                            </a> -->
+                            
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="http://shou.rf.gd/#" class="xe-user-name overflowClip_1">
+                                <img src="./首站_files/aHR0cHM6Ly9naXRodWIuY29t" alt="HUAN" width="16" height="16">
+                                    <strong>My Github</strong>
+                                </a>
+                                <p class="overflowClip_2">开源爱好者，擅长PHP开发、Linux运维。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="placeholder" style="height:2em;"></div> 
+                        
+            <br>
+            
+            <!-- END 常用推荐 -->
+ <!--仿凡科 右侧悬浮窗 -->
+ <style>
+@media (max-width:768px) {  
+    	.fk_service_qrimg_site {
+    width: 119px;
+    height: 119px;
+    float: left;
+    margin: 12px 12px 5px 12px;
+    background-image: url(/);
+    background-size: 100% 100%;
+	} 
+	
+.col-sm-3 { 
+    width: 50%;
+    float: left;
+} 
+    .xe-widget.xe-conversations {
+    position: relative;
+    background: #fff;
+    margin-bottom: 0px;
+</style>
+	<!-- footer部分 -->
+	<footer>
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1" style="">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        <span id="jinrishici-sentence">桃花尽日随流水，洞在清溪何处边。</span>
+					<script src="./首站_files/jinrishici.js.下载" charset="utf-8"></script> 
+					</div> 
+					<div class="zmki_footer_mar">
+                        © 2022
+                        Theme：<a href="https://github.com/WebStackPage/WebStackPage.github.io" rel="nofollow" target="_blank"><strong>WebStack</strong></a>.
+                        Powered：<a href="https://github.com/helloxz/onenav" rel="nofollow" target="_blank"><strong>OneNav</strong></a>. 
+                        design：<a href="http://viggoz.com/" rel="nofollow" target="_blank"><strong>Viggo</strong></a>.
+                        Modify：<a href="https://www.ffxiv.co/" rel="nofollow" target="_blank"><strong>河狸</strong></a>. &amp; <a href="https://www.zmki.cn/" rel="nofollow" target="_blank"><strong>Zmki</strong></a>.
+                        <br><a href="http://beian.miit.gov.cn/" target="_blank"><strong>苏ICP备2022003893号-1</strong></a> | <a href="http://shou.rf.gd/index.php?c=login">login</a>
+                        <!--  - Purchase for only <strong>23$</strong> -->
+                    </div>
+                    <!--站点运行时间开始--> 
+                    <div class="zmki_footer_mar">
+					<script>
+					(function(){
+					    var bp = document.createElement('script');
+					    var curProtocol = window.location.protocol.split(':')[0];
+					    if (curProtocol === 'https') {
+					        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+					    }
+					    else {
+					        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+					    }
+					    var s = document.getElementsByTagName("script")[0];
+					    s.parentNode.insertBefore(bp, s);
+					})();
+						</script>				 
+					                  站点已稳定运行：<span id="span_dt_dt" style="color: #2F889A;"><font style="color:#C40000">150</font> 天 <font style="color:#C40000">9</font> 时 <font style="color:#C40000">43</font> 分 <font style="color:#C40000">32</font> 秒</span> 
+					                  <script language="javascript">function show_date_time(){
+					                    window.setTimeout("show_date_time()", 1000);
+					                    BirthDay=new Date("2/14/2022 0:0:0 ");
+					                    today=new Date();
+					                    timeold=(today.getTime()-BirthDay.getTime());
+					                    sectimeold=timeold/1000
+					                    secondsold=Math.floor(sectimeold);
+					                    msPerDay=24*60*60*1000
+					                    e_daysold=timeold/msPerDay
+					                    daysold=Math.floor(e_daysold);
+					                    e_hrsold=(e_daysold-daysold)*24;
+					                    hrsold=Math.floor(e_hrsold);
+					                    e_minsold=(e_hrsold-hrsold)*60;
+					                    minsold=Math.floor((e_hrsold-hrsold)*60);
+					                    seconds=Math.floor((e_minsold-minsold)*60);
+					                    span_dt_dt.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
+					                    }show_date_time();
+					                    </script> 
+                    <!--站点运行时间结束-->
+                </div>
+            </div></footer>
+        </footer></div>
+    </div>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="./首站_files/index.min.js(1).下载"></script>
+    <script src="./首站_files/zui.js(1).下载"></script>
+    <script src="./首站_files/bootstrap.min.js.下载"></script>
+    <script src="./首站_files/TweenMax.min.js.下载"></script>
+    <script src="./首站_files/resizeable.js.下载"></script>
+    <script src="./首站_files/joinable.js.下载"></script>
+    <script src="./首站_files/xenon-api.js.下载"></script>
+    <script src="./首站_files/xenon-toggles.js.下载"></script>
+    <!-- JavaScripts initializations and stuff -->
+    <script src="./首站_files/xenon-custom.js.下载"></script>
+    <script src="./首站_files/lozad.js.下载"></script>
+    <script type="text/javascript">
+    <!--//夜间模式-->    
+(function(){
+    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
+        if(new Date().getHours() > 22 || new Date().getHours() < 6){
+            document.body.classList.add('night');
+            document.cookie = "night=1;path=/";
+            console.log('夜间模式开启');
+        }else{
+            document.body.classList.remove('night');
+            document.cookie = "night=0;path=/";
+            console.log('夜间模式关闭');
+        }
+    }else{
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+        if(night == '0'){
+            document.body.classList.remove('night');
+        }else if(night == '1'){
+            document.body.classList.add('night');
+        }
+    }
+})();
+//夜间模式切换
+function switchNightMode(){
+    var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+    if(night == '0'){
+        document.body.classList.add('night');
+        document.cookie = "night=1;path=/"
+        console.log(' ');
+    }else{
+        document.body.classList.remove('night');
+        document.cookie = "night=0;path=/"
+        console.log(' ');
+    }
+}
+//全屏切换
+//控制全屏
+function enterfullscreen() { //进入全屏
+  $("#fullscreen").html(" ");
+  var docElm = document.documentElement;
+  //W3C
+  if(docElm.requestFullscreen) {
+    docElm.requestFullscreen();
+  }
+  //FireFox
+  else if(docElm.mozRequestFullScreen) {
+    docElm.mozRequestFullScreen();
+  }
+  //Chrome等
+  else if(docElm.webkitRequestFullScreen) {
+    docElm.webkitRequestFullScreen();
+  }
+  //IE11
+  else if(elem.msRequestFullscreen) {
+    elem.msRequestFullscreen();
+  }
+}
+function exitfullscreen() { //退出全屏
+  $("#fullscreen").html(" ");
+  if(document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if(document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if(document.webkitCancelFullScreen) {
+    document.webkitCancelFullScreen();
+  } else if(document.msExitFullscreen) {
+    document.msExitFullscreen();
+  }
+}
+ 
+var a = 0;
+$('#fullscreen').on('click', function() {
+  a++;
+  a % 2 == 1 ? enterfullscreen() : exitfullscreen();
+})
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2ad27bbdccaf92894f8e275ec307df70";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<div class="wapnone fk_service">
+	<ul>
+		<li class="fk_service_box fk_service_zmkiah" onclick="window.location.href=&#39;javascript:switchNightMode()&#39;">
+			<div class="fk_service_zmkiah_cont"> <span class="fk_service_triangle"></span>全新暗黑模式，夜间使用保护眼睛 </div>
+		</li>
+		<li>
+			<div class="fk_service_consult_cont1" style="display: none;"> <span class="fk_service_triangle"></span> 在线咨询 </div>
+		</li>
+		<li class="fk_service_box fk_service_consult">
+			<div class="fk_service_consult_cont"> <span class="fk_service_triangle"></span>
+				<div class="fk_service_consult_cont_top"> <span class="fk_service_hint"> <span class="fk_service_icon"></span>
+						<span> 如遇问题，请联系站长 </span>
+						<span class="fk_service_button" onclick="window.open(&#39;http://wpa.qq.com/msgrd?v=3&amp;uin=1587615&amp;site=qq&amp;menu=yes&#39;)">在线QQ</span>
+					    <span class="fk_service_button" onclick="window.open(&#39;https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=heli@ffxiv.com&#39;)">在线邮件</span>
+				</span></div> <span class="fk_service_phone"> 邮件请尽量清晰描述问题 </span> 
+			</div>
+		</li> 
+		<li class="fk_service_box fk_service_zmkiqp" onclick="javascript:document.getElementById(&#39;fullscreen&#39;).click();"> 
+		<div class="fk_service_zmkiqp_cont"> <span class="fk_service_triangle"></span>切换全屏</div>
+		</li>
+		<li class="fk_service_box fk_service_upward " onclick="javascript:document.getElementById(&#39;01&#39;).click();" style="display: block;">
+				<a id="01" href="http://shou.rf.gd/" rel="go-top" class="fk_service_box fk_service_upward ">1</a>
+			<div class="fk_service_upward_cont"> <span class="fk_service_triangle"></span> <span> 返回顶部 </span> </div>
+			</li></ul></div><span id="pinbox-extension-installed"></span><iframe class="pinbox-iframe-sidebar" id="pinbox-iframe-sidebar" allowtransparency="true" scrolling="no" src="./首站_files/sidebar.html"></iframe></body></html>
